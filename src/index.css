@@ -1,0 +1,129 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+/* Namespace wrapper for Kurban Nasional Landing Page */
+.kn-page {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color: #0F172A;
+  background-color: #FAFCFC;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.kn-page h1, 
+.kn-page h2, 
+.kn-page h3, 
+.kn-page h4, 
+.kn-page .font-display {
+  font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom Floating Animations */
+@keyframes kn-float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+}
+
+@keyframes kn-float-reverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(8px) rotate(-1deg);
+  }
+}
+
+@keyframes kn-spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes kn-pulse-glow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-kn-float {
+  animation: kn-float-slow 6s ease-in-out infinite;
+}
+
+.animate-kn-float-reverse {
+  animation: kn-float-reverse 7s ease-in-out infinite;
+}
+
+.animate-kn-spin {
+  animation: kn-spin-slow 40s linear infinite;
+}
+
+.animate-kn-pulse-glow {
+  animation: kn-pulse-glow 4s ease-in-out infinite;
+}
+
+/* Custom Glassmorphism Styles */
+.kn-glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.kn-glass-dark {
+  background: rgba(15, 23, 42, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Gradient text utility */
+.kn-gradient-text {
+  background: linear-gradient(135deg, #059669 0%, #0D9488 50%, #0284C7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.kn-gradient-text-gold {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 50%, #B45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbar inside elements */
+.kn-page ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.kn-page ::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.8);
+  border-radius: 9999px;
+}
+.kn-page ::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+.kn-page ::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Accessibility: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-kn-float,
+  .animate-kn-float-reverse,
+  .animate-kn-spin,
+  .animate-kn-pulse-glow {
+    animation: none !important;
+  }
+}

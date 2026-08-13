@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT Distribusi Kurban Nasional — National Qurban Marketplace & Digital Ecosystem</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <style>
+    /* Scope namespace for host website integration */
+    .kn-page {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      color: #0F172A;
+      background-color: #FAFCFC;
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    .kn-page h1, .kn-page h2, .kn-page h3, .kn-page h4, .kn-font-display {
+      font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    }
+
+    @keyframes kn-float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .animate-kn-float {
+      animation: kn-float 6s ease-in-out infinite;
+    }
+
+    .kn-gradient-text-gold {
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 50%, #B45309 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .animate-kn-float { animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- SCOPED CONTAINER (NO HEADER, NO NAVBAR, NO FOOTER) -->
+<div className="kn-page" id="kn-app">
+  
+  <!-- HERO SECTION -->
+  <section class="relative overflow-hidden bg-gradient-to-b from-slate-900 via-emerald-950 to-slate-900 text-white pt-16 pb-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="flex justify-center mb-6">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-semibold uppercase tracking-wider">
+          <i data-lucide="sparkles" class="w-4 h-4 text-emerald-400"></i>
+          <span>NATIONAL QURBAN MARKETPLACE</span>
+        </div>
+      </div>
+
+      <div class="text-center max-w-4xl mx-auto mb-10">
+        <h1 class="text-4xl sm:text-6xl font-black text-white leading-tight mb-6">
+          Membangun Infrastruktur Digital untuk <span class="text-emerald-400">Ekosistem Kurban Nasional</span>
+        </h1>
+        <p class="text-slate-300 text-lg sm:text-xl font-light leading-relaxed max-w-3xl mx-auto">
+          Kurban Nasional hadir sebagai marketplace dan platform digital yang menghubungkan masyarakat dengan lembaga zakat dan kemanusiaan terpercaya—dengan pemasaran sepanjang tahun, teknologi terintegrasi, dan transparansi pelaksanaan kurban.
+        </p>
+
+        <div class="mt-8 flex flex-wrap justify-center gap-4">
+          <a href="#investment-opportunity" class="px-8 py-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-white font-bold text-base transition-colors shadow-lg">
+            Lihat Peluang Bisnis
+          </a>
+          <button onclick="alert('Permintaan Investor Deck berhasil dikirim.')" class="px-8 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-base transition-colors border border-slate-700">
+            Download Investor Deck
+          </button>
+        </div>
+      </div>
+
+      <!-- EDITABLE DATA — DUMMY DEMO HERO STATS -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 max-w-5xl mx-auto">
+        <div class="bg-slate-900/90 border border-slate-800 p-5 rounded-2xl text-center">
+          <div class="text-3xl font-black text-white font-display">12.480</div>
+          <div class="text-xs text-slate-300 mt-1 font-medium">Mudhohi Terdaftar</div>
+          <!-- EDITABLE DATA: DUMMY DEMO STAT -->
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-5 rounded-2xl text-center">
+          <div class="text-3xl font-black text-white font-display">Rp 18,7 M</div>
+          <div class="text-xs text-slate-300 mt-1 font-medium">Est. Annual GMV</div>
+          <!-- EDITABLE DATA: DUMMY DEMO STAT -->
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-5 rounded-2xl text-center">
+          <div class="text-3xl font-black text-white font-display">37</div>
+          <div class="text-xs text-slate-300 mt-1 font-medium">Lembaga Terverifikasi</div>
+          <!-- EDITABLE DATA: DUMMY DEMO STAT -->
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-5 rounded-2xl text-center">
+          <div class="text-3xl font-black text-white font-display">514</div>
+          <div class="text-xs text-slate-300 mt-1 font-medium">Kabupaten/Kota</div>
+          <!-- EDITABLE DATA: DUMMY DEMO STAT -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INVESTMENT OPPORTUNITY -->
+  <section id="investment-opportunity" class="py-20 bg-slate-900 text-white border-t border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest block mb-2">INITIAL SEED INVESTMENT</span>
+      <h2 class="text-3xl sm:text-5xl font-black text-white mb-2">Investment Opportunity</h2>
+      <p class="text-emerald-300 text-xl font-bold mb-8">Rp150 Juta untuk Membangun Fondasi Kurban Nasional Selama 6 Bulan</p>
+
+      <div class="bg-slate-950 p-8 rounded-3xl border border-slate-800 max-w-3xl mx-auto mb-8">
+        <div class="text-4xl font-extrabold text-white mb-6">Rp 150.000.000</div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left text-xs">
+          <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+            <div class="font-bold text-emerald-400 mb-1">Platform Development (Rp 16M)</div>
+            <div class="text-slate-400">Website, apps, server Cloud Run, database, SSL & maintenance.</div>
+          </div>
+          <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+            <div class="font-bold text-teal-400 mb-1">Developer Incentive (Rp 60M)</div>
+            <div class="text-slate-400">Insentif tim teknis & pengembang platform 6 bulan awal.</div>
+          </div>
+          <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+            <div class="font-bold text-cyan-400 mb-1">Ads & Marketing 12 Bulan (Rp 24M)</div>
+            <div class="text-slate-400">Rp 2Juta/bulan (Meta & Google Ads) selama 12 bulan.</div>
+          </div>
+          <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+            <div class="font-bold text-amber-400 mb-1">Socialization & Event (Rp 50M)</div>
+            <div class="text-slate-400">Partnership activation, event edukasi & kampanye nasional.</div>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-xs text-slate-400 italic mb-6">
+        * Verifikasi kalkulasi: Rp16M + Rp60M + Rp24M + Rp50M = Rp150M.
+      </p>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="py-20 bg-slate-950 text-white text-center border-t border-slate-900">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold text-white mb-4">The Next National Qurban Infrastructure Starts Here.</h2>
+      <p class="text-slate-300 text-sm mb-8">PT Distribusi Kurban Nasional — kurbannasional.com</p>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  // Initialize Lucide Icons
+  if (window.lucide) {
+    lucide.createIcons();
+  }
+</script>
+</body>
+</html>
