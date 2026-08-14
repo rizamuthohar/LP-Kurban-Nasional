@@ -1,7 +1,7 @@
 /**
  * @license
  * PT Distribusi Kurban Nasional - Investment Landing Page
- * National Qurban Marketplace & Digital Ecosystem
+ * National Kurban Marketplace & Digital Ecosystem
  */
 
 import React, { useState } from 'react';

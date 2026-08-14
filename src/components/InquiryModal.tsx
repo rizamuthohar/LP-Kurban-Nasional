@@ -51,7 +51,7 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({ isOpen, mode, onClos
                 {mode === 'deck' ? 'Request Official Investor Deck' : 'Diskusikan Peluang Bisnis'}
               </h3>
               <p className="text-xs text-slate-400 mt-1">
-                PT Distribusi Kurban Nasional — National Qurban Marketplace & Digital Ecosystem
+                PT Distribusi Kurban Nasional — National Kurban Marketplace & Digital Ecosystem
               </p>
             </div>
 

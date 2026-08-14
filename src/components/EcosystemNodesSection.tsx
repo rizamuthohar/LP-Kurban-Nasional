@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Network, ShieldCheck, Building, Heart, Users, Landmark, Wallet, Sparkles } from 'lucide-react';
+import { Network, ShieldCheck, Building, Heart, Users, Landmark, Wallet, Star } from 'lucide-react';
 import { EcosystemNode } from '../types';
 
 export const EcosystemNodesSection: React.FC = () => {
@@ -18,7 +18,7 @@ export const EcosystemNodesSection: React.FC = () => {
       id: 'rz',
       name: 'Rumah Zakat',
       category: 'institution',
-      description: 'Mitra pelaksana kurban dengan program Superqurban olahan daging kornet/rendang.',
+      description: 'Mitra pelaksana kurban dengan program Superkurban olahan daging kornet/rendang.',
       metrics: 'Partner Pelaksana'
     },
     {
@@ -68,7 +68,7 @@ export const EcosystemNodesSection: React.FC = () => {
       name: 'Corporate & CSR',
       category: 'user',
       description: 'Perusahaan yang mengalokasikan dana CSR atau program kurban karyawan secara tersentralisasi.',
-      metrics: 'B2B Qurban Channel'
+      metrics: 'B2B Kurban Channel'
     },
     {
       id: 'mudhohi',

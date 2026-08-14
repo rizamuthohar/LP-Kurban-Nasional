@@ -31,7 +31,7 @@ export const PlatformPillarsSection: React.FC = () => {
     {
       id: '04',
       number: '04',
-      title: 'Qurban Tracking',
+      title: 'Kurban Tracking',
       description: 'Fitur pemantauan berkala status kurban mudhohi dari persiapan, lokasi pemotongan, hingga konfirmasi penyaluran.',
       icon: 'Navigation',
       badge: 'Real-time Tracking'
@@ -40,7 +40,7 @@ export const PlatformPillarsSection: React.FC = () => {
       id: '05',
       number: '05',
       title: 'Transparency & Reporting',
-      description: 'Dokumentasi foto/video pemotongan, penerbitan Digital Qurban Certificate, dan laporan akuntabilitas distribusi.',
+      description: 'Dokumentasi foto/video pemotongan, penerbitan Digital Kurban Certificate, dan laporan akuntabilitas distribusi.',
       icon: 'FileCheck2',
       badge: 'Verified Proof'
     }

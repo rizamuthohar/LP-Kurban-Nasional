@@ -32,7 +32,7 @@ export const RoadmapSection: React.FC = () => {
       items: [
         'Payment Gateway Integration (QRIS, VA)',
         'WhatsApp Automated Notification Engine',
-        'Qurban Tracking & Digital Certificate System'
+        'Kurban Tracking & Digital Certificate System'
       ]
     },
     {
@@ -57,10 +57,10 @@ export const RoadmapSection: React.FC = () => {
     },
     {
       month: 'MONTH 06',
-      title: 'Pre-Qurban Acceleration',
+      title: 'Pre-Kurban Acceleration',
       badge: 'Bulan 6 (Launch)',
       items: [
-        'Full Pre-Qurban National Campaign Push',
+        'Full Pre-Kurban National Campaign Push',
         'Corporate Partnership Conversion',
         'End-to-End Stress Testing & Official Launch'
       ]

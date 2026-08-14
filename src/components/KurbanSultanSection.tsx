@@ -1,5 +1,5 @@
 import React from 'react';
-import { Crown, Sparkles, Video, ShieldAlert, HeartHandshake, Check, ArrowRight } from 'lucide-react';
+import { Crown, Star, Video, ShieldAlert, HeartHandshake, Check, ArrowRight } from 'lucide-react';
 
 interface KurbanSultanProps {
   onOpenInquiry: () => void;

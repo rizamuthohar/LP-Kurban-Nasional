@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plus, ArrowDown, Sparkles, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { Plus, ArrowDown, Star, CheckCircle2, ShieldCheck } from 'lucide-react';
 
 export const AmplifierSection: React.FC = () => {
   const narrativeElements = [
@@ -20,7 +20,7 @@ export const AmplifierSection: React.FC = () => {
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-4">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
+            <Star className="w-3.5 h-3.5 text-emerald-400" />
             <span>ECOSYSTEM AMPLIFIER</span>
           </div>
 
@@ -90,7 +90,7 @@ export const AmplifierSection: React.FC = () => {
           <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 text-center">
             <div className="inline-flex items-center gap-2 text-emerald-400 font-bold text-base sm:text-lg">
               <ShieldCheck className="w-5 h-5 text-emerald-400" />
-              <span>NATIONAL QURBAN ECOSYSTEM</span>
+              <span>NATIONAL KURBAN ECOSYSTEM</span>
             </div>
             <p className="text-xs text-slate-400 mt-1 max-w-md mx-auto">
               Infrastruktur digital berulang yang memberikan manfaat terukur bagi Mudhohi, Lembaga Zakat, Peternak, dan Penerima Manfaat.

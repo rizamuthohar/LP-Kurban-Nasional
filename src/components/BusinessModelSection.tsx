@@ -16,7 +16,7 @@ export const BusinessModelSection: React.FC = () => {
 
   const timelinePhases = [
     {
-      period: 'Januari – Maret',
+      period: 'September – Desember',
       phase: 'Education & Awareness',
       subtitle: 'Membangun Literasi & SEO Organik',
       badge: 'Fase 1',
@@ -27,7 +27,7 @@ export const BusinessModelSection: React.FC = () => {
       ]
     },
     {
-      period: 'April',
+      period: 'Januari – Februari',
       phase: 'Campaign Preparation',
       subtitle: 'Onboarding Lembaga & Finalisasi Katalog',
       badge: 'Fase 2',
@@ -38,7 +38,7 @@ export const BusinessModelSection: React.FC = () => {
       ]
     },
     {
-      period: 'Mei – Juni',
+      period: 'Maret – April',
       phase: 'Conversion & Sales',
       subtitle: 'Puncak Penjualan & Perolehan Mudhohi',
       badge: 'Fase 3',
@@ -49,7 +49,7 @@ export const BusinessModelSection: React.FC = () => {
       ]
     },
     {
-      period: 'Iduladha & Hari Tasyrik',
+      period: 'Mei (Iduladha & Hari Tasyrik)',
       phase: 'Execution & Distribution',
       subtitle: 'Pelaksanaan & Live Monitoring Digital',
       badge: 'Puncak Execution',
@@ -60,18 +60,18 @@ export const BusinessModelSection: React.FC = () => {
       ]
     },
     {
-      period: 'Setelah Iduladha',
+      period: 'Juni (Setelah Iduladha)',
       phase: 'Reporting & Retention',
       subtitle: 'Laporan Transparansi & Sertifikat Digital',
       badge: 'Fase 4',
       activities: [
-        'Penerbitan Digital Qurban Certificate yang dapat diunduh & dibagikan',
+        'Penerbitan Digital Kurban Certificate yang dapat diunduh & dibagikan',
         'Pengiriman laporan dampak penyaluran kepada mudhohi & corporate',
         'Pengumpulan ulasan & feedback kepuasan mudhohi'
       ]
     },
     {
-      period: 'Setelahnya (Agustus – Desember)',
+      period: 'Setelahnya (Juli – April)',
       phase: 'Building Next Year Customer Base',
       subtitle: 'Program Retensi & Tabungan Kurban',
       badge: 'Continuous Engagement',

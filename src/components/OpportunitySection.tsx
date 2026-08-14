@@ -1,14 +1,14 @@
 import React from 'react';
-import { Calendar, AlertCircle, ArrowUpRight, Shield, Zap, Sparkles } from 'lucide-react';
+import { Calendar, AlertCircle, ArrowUpRight, Shield, Zap, Star } from 'lucide-react';
 
 export const OpportunitySection: React.FC = () => {
-  const months = ['JAN', 'FEB', 'MAR', 'APR', 'MEI', 'JUN', 'JUL', 'AGS', 'SEP', 'OKT', 'NOV', 'DES'];
+  const months = ['SEP', 'OKT', 'NOV', 'DES', 'JAN', 'FEB', 'MAR', 'APR', 'MEI', 'JUN', 'JUL', 'AGS'];
 
   // Intensity levels for conventional (1 = low, 10 = high)
-  const conventionalIntensity = [1, 1, 1, 1, 2, 9, 10, 1, 1, 1, 1, 1];
+  const conventionalIntensity = [1, 1, 1, 1, 1, 1, 2, 9, 10, 1, 1, 1];
   
   // Intensity levels for Kurban Nasional year-round model
-  const knIntensity = [3, 3, 4, 5, 7, 10, 10, 4, 3, 3, 3, 3];
+  const knIntensity = [3, 3, 4, 4, 5, 6, 8, 9, 10, 4, 3, 3];
 
   return (
     <section className="py-20 bg-slate-50 border-y border-slate-200/80 relative overflow-hidden">
@@ -17,7 +17,7 @@ export const OpportunitySection: React.FC = () => {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 border border-emerald-200 text-emerald-800 text-xs font-semibold uppercase tracking-wider mb-4">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
+            <Star className="w-3.5 h-3.5 text-emerald-600" />
             <span>THE MARKET OPPORTUNITY</span>
           </div>
 
@@ -82,11 +82,11 @@ export const OpportunitySection: React.FC = () => {
                   <div 
                     key={m} 
                     className={`text-xs font-mono py-1 rounded ${
-                      idx === 5 ? 'bg-amber-500/20 text-amber-300 font-bold border border-amber-500/40' : 'text-slate-400 bg-slate-800/60'
+                      idx === 8 ? 'bg-amber-500/20 text-amber-300 font-bold border border-amber-500/40' : 'text-slate-400 bg-slate-800/60'
                     }`}
                   >
                     {m}
-                    {idx === 5 && <div className="text-[9px] text-amber-400">Iduladha</div>}
+                    {idx === 8 && <div className="text-[9px] text-amber-400">Iduladha</div>}
                   </div>
                 ))}
               </div>

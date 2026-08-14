@@ -24,7 +24,7 @@ export const FaqAccordionSection: React.FC = () => {
     },
     {
       question: 'Bagaimana investasi Rp150 Juta digunakan?',
-      answer: 'Dana investasi Rp150 Juta digunakan secara rinci untuk Platform Development (Rp16M), Developer Incentive 6 Bulan (Rp60M), Ads & Digital Marketing 12 Bulan (Rp24M), dan Socialization & Event Activation (Rp50M).'
+      answer: 'Dana investasi Rp150 Juta digunakan secara rinci untuk Platform Development (Rp16 Jt), Developer Incentive 6 Bulan (Rp60 Jt), Ads & Digital Marketing 12 Bulan (Rp24 Jt), dan Socialization & Event Activation (Rp50 Jt).'
     }
   ];
 

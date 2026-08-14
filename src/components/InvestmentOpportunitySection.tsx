@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DollarSign, CheckCircle2, PieChart, ArrowRight, ShieldCheck, Sparkles, Calculator } from 'lucide-react';
+import { DollarSign, CheckCircle2, PieChart, ArrowRight, ShieldCheck, Star, Calculator } from 'lucide-react';
 import { InvestmentAllocation } from '../types';
 
 interface InvestmentOpportunityProps {
@@ -59,7 +59,7 @@ export const InvestmentOpportunitySection: React.FC<InvestmentOpportunityProps> 
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-4">
-            <Sparkles className="w-4 h-4 text-emerald-400" />
+            <Star className="w-4 h-4 text-emerald-400" />
             <span>INVESTMENT PROPOSAL</span>
           </div>
 
@@ -96,16 +96,16 @@ export const InvestmentOpportunitySection: React.FC<InvestmentOpportunityProps> 
 
           <div className="flex flex-wrap justify-center gap-4 text-xs font-mono text-slate-300">
             <span className="flex items-center gap-1.5">
-              <span className="w-3 h-3 rounded-full bg-emerald-500" /> Platform Dev (Rp16M)
+              <span className="w-3 h-3 rounded-full bg-emerald-500" /> Platform Dev (Rp16 Jt)
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="w-3 h-3 rounded-full bg-teal-500" /> Dev Incentive (Rp60M)
+              <span className="w-3 h-3 rounded-full bg-teal-500" /> Dev Incentive (Rp60 Jt)
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="w-3 h-3 rounded-full bg-cyan-500" /> Ads 12-Bulan (Rp24M)
+              <span className="w-3 h-3 rounded-full bg-cyan-500" /> Ads 12-Bulan (Rp24 Jt)
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="w-3 h-3 rounded-full bg-amber-500" /> Event & Socialization (Rp50M)
+              <span className="w-3 h-3 rounded-full bg-amber-500" /> Event & Socialization (Rp50 Jt)
             </span>
           </div>
         </div>
@@ -145,7 +145,7 @@ export const InvestmentOpportunitySection: React.FC<InvestmentOpportunityProps> 
             VERIFIKASI KALKULASI ALOKASI INVESTASI
           </div>
           <div className="text-sm font-bold text-white mb-2">
-            Rp 16.000.000 + Rp 60.000.000 + Rp 24.000.000 + Rp 50.000.000 = <span className="text-emerald-400 font-extrabold text-base">Rp 150.000.000 (Tepat)</span>
+            Rp 16.000.000 + Rp 60.000.000 + Rp 24.000.000 + Rp 50.000.000 = <span className="text-emerald-400 font-extrabold text-base">Rp 150.000.000</span>
           </div>
           <p className="text-xs text-slate-400 italic">
             * Angka di atas merupakan estimasi awal dan dapat disesuaikan berdasarkan prioritas pengembangan, kesepakatan investor, dan strategi fundraising.

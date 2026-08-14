@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Download, Globe, Mail, Phone, Building2, Sparkles, MessageSquare } from 'lucide-react';
+import { ArrowRight, Download, Globe, Mail, Phone, Building2, Star, MessageSquare } from 'lucide-react';
 
 interface FinalCtaProps {
   onOpenInquiry: () => void;
@@ -18,12 +18,12 @@ export const FinalCtaSection: React.FC<FinalCtaProps> = ({ onOpenInquiry, onOpen
         <div className="bg-gradient-to-r from-emerald-950 via-slate-900 to-slate-950 rounded-3xl p-8 sm:p-14 border border-emerald-500/40 shadow-2xl text-center max-w-5xl mx-auto">
           
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-6">
-            <Sparkles className="w-4 h-4 text-emerald-400" />
+            <Star className="w-4 h-4 text-emerald-400" />
             <span>JOIN US AS STRATEGIC PARTNER / INVESTOR</span>
           </div>
 
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-6 font-display">
-            The Next National Qurban Infrastructure Starts Here.
+            The Next National Kurban Infrastructure Starts Here.
           </h2>
 
           <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed mb-10">

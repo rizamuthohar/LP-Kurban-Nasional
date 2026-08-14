@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Sparkles, Building2, Users, Layers, Cpu, Globe2 } from 'lucide-react';
+import { Shield, Star, Building2, Users, Layers, Cpu, Globe2 } from 'lucide-react';
 
 export const BigVisionSection: React.FC = () => {
   const elements = [
@@ -21,11 +21,11 @@ export const BigVisionSection: React.FC = () => {
         </div>
 
         <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6 font-display leading-tight">
-          We Are Not Building Another Qurban Campaign.
+          We Are Not Building Another Kurban Campaign.
         </h2>
 
         <p className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-emerald-400 mb-8 max-w-4xl mx-auto leading-snug">
-          We Are Building the Digital Infrastructure for Indonesia’s Qurban Ecosystem.
+          We Are Building the Digital Infrastructure for Indonesia’s Kurban Ecosystem.
         </p>
 
         <p className="text-slate-300 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed mb-10 font-light">

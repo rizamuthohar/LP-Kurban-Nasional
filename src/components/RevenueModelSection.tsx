@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wallet, DollarSign, Award, Building, BarChart3, Cpu, Sparkles } from 'lucide-react';
+import { Wallet, DollarSign, Award, Building, BarChart3, Cpu, Star } from 'lucide-react';
 import { RevenueStream } from '../types';
 
 export const RevenueModelSection: React.FC = () => {
@@ -22,7 +22,7 @@ export const RevenueModelSection: React.FC = () => {
     },
     {
       id: '03',
-      title: 'Premium Qurban (Sultan)',
+      title: 'Premium Kurban (Sultan)',
       description: 'Margin/fee dari paket Kurban Sultan dengan layanan concierge eksklusif dan penanganan hewan super premium.',
       type: 'High-Margin Segment',
       potential: 'Higher Average Order Value',

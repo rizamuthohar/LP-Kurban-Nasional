@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, Search, Users, Shield, Target, Award, Sparkles, MessageSquare } from 'lucide-react';
+import { TrendingUp, Search, Users, Shield, Target, Award, Star, MessageSquare } from 'lucide-react';
 
 export const YearRoundMarketingSection: React.FC = () => {
   const marketingBenefits = [
@@ -45,7 +45,7 @@ export const YearRoundMarketingSection: React.FC = () => {
             <div className="space-y-4">
               <div>
                 <div className="flex justify-between text-xs text-slate-400 mb-1">
-                  <span>10 Bulan Pertama (Jan - Apr, Jul - Des)</span>
+                  <span>10 Bulan Pertama (Jun - Feb)</span>
                   <span className="text-rose-400">Aktivitas Rendah (10%)</span>
                 </div>
                 <div className="h-4 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
@@ -55,7 +55,7 @@ export const YearRoundMarketingSection: React.FC = () => {
 
               <div>
                 <div className="flex justify-between text-xs text-slate-400 mb-1">
-                  <span>2 Bulan Menjelang Iduladha (Mei - Jun)</span>
+                  <span>2 Bulan Menjelang Iduladha (Mar - Mei)</span>
                   <span className="text-rose-400 font-bold">Perang Ads & Biaya Melonjak (100%)</span>
                 </div>
                 <div className="h-4 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
@@ -78,23 +78,23 @@ export const YearRoundMarketingSection: React.FC = () => {
 
             <div className="space-y-3">
               <div className="flex justify-between text-xs text-emerald-200">
-                <span>JAN - MAR (Edukasi & SEO)</span>
+                <span>SEP - DES (Edukasi & SEO Organik)</span>
                 <span>████ (25%)</span>
               </div>
               <div className="flex justify-between text-xs text-emerald-200">
-                <span>APR (Persiapan Catalog)</span>
+                <span>JAN - FEB (Onboarding Catalog & Prep)</span>
                 <span>██████ (40%)</span>
               </div>
               <div className="flex justify-between text-xs text-emerald-200">
-                <span>MEI - JUN (Conversion Acceleration)</span>
+                <span>MAR - APR (Conversion Acceleration)</span>
                 <span>████████████ (90%)</span>
               </div>
               <div className="flex justify-between text-xs text-emerald-200 font-bold">
-                <span>IDULADHA (Execution & Live Track)</span>
+                <span>MEI / IDULADHA (Execution & Live Track)</span>
                 <span className="text-emerald-400">████████████████ (100%)</span>
               </div>
               <div className="flex justify-between text-xs text-emerald-300/80">
-                <span>JUL - DES (Retensi & Tabungan)</span>
+                <span>JUN - AGS (Retensi & Tabungan)</span>
                 <span>██████ (35%)</span>
               </div>
             </div>

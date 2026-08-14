@@ -1,5 +1,5 @@
 import React from 'react';
-import { RotateCw, Sparkles, RefreshCw } from 'lucide-react';
+import { RotateCw, Star, RefreshCw } from 'lucide-react';
 
 export const FlywheelSection: React.FC = () => {
   const flywheelNodes = [

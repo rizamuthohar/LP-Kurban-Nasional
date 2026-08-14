@@ -94,7 +94,7 @@ export const StrategicPartnershipSection: React.FC = () => {
               <div className="text-center text-emerald-400 font-bold text-xs">↓</div>
 
               <div className="bg-gradient-to-r from-emerald-600 to-teal-600 p-3 rounded-xl text-center text-xs font-black text-white shadow-lg">
-                NATIONAL QURBAN ECOSYSTEM
+                NATIONAL KURBAN ECOSYSTEM
               </div>
             </div>
           </div>

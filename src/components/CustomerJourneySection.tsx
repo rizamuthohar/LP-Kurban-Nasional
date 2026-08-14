@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Route, CheckCircle2, ChevronRight, Sparkles } from 'lucide-react';
+import { Route, CheckCircle2, ChevronRight, Star } from 'lucide-react';
 import { JourneyStep } from '../types';
 
 export const CustomerJourneySection: React.FC = () => {
@@ -66,7 +66,7 @@ export const CustomerJourneySection: React.FC = () => {
       step: 8,
       title: 'REPORT',
       subtitle: 'Laporan & Sertifikat',
-      description: 'Menerima foto/video dokumentasi pemotongan dan Digital Qurban Certificate resmi.',
+      description: 'Menerima foto/video dokumentasi pemotongan dan Digital Kurban Certificate resmi.',
       feature: 'Downloadable PDF Certificate & Video Link',
       icon: 'FileCheck'
     },
@@ -92,7 +92,7 @@ export const CustomerJourneySection: React.FC = () => {
           </div>
 
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-4">
-            From Awareness to Qurban
+            From Awareness to Kurban
           </h2>
 
           <p className="text-slate-600 text-base sm:text-lg">

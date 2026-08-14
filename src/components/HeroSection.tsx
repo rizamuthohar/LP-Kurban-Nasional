@@ -8,7 +8,7 @@ import {
   ArrowRight, 
   Download, 
   ShieldCheck, 
-  Sparkles,
+  Star,
   Activity,
   FileText
 } from 'lucide-react';
@@ -53,8 +53,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         {/* Top Eyebrow Badge */}
         <div className="flex justify-center mb-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs sm:text-sm font-semibold tracking-wider uppercase backdrop-blur-md shadow-lg shadow-emerald-950/50">
-            <Sparkles className="w-4 h-4 text-emerald-400 animate-pulse" />
-            <span>NATIONAL QURBAN MARKETPLACE</span>
+            <Star className="w-4 h-4 text-emerald-400 animate-pulse" />
+            <span>NATIONAL KURBAN MARKETPLACE</span>
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
             <span className="text-emerald-200/80 font-normal">BUSINESS OPPORTUNITY</span>
           </div>
