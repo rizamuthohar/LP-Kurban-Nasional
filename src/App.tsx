@@ -80,7 +80,7 @@ export default function App() {
       {/* 7. NATIONAL ECOSYSTEM NODE DIAGRAM */}
       <EcosystemNodesSection />
 
-      {/* 8. STRATEGIC PARTNERSHIP (DOMPET DHUAFA TARGET ANCHOR) */}
+      {/* 8. STRATEGIC PARTNERSHIP (DOMPET DHUAFA & KEMENTAN TARGET ANCHORS) */}
       <StrategicPartnershipSection />
 
       {/* 9. YEAR-ROUND MARKETING */}

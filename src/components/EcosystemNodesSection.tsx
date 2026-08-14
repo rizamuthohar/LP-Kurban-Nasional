@@ -15,6 +15,14 @@ export const EcosystemNodesSection: React.FC = () => {
       isAnchor: true
     },
     {
+      id: 'kementan',
+      name: 'Kementerian Pertanian (Kementan)',
+      category: 'partner',
+      description: 'Mitra strategis sinkronisasi data ketersediaan populasi ternak nasional, standar kesehatan SKKH, dan pemetaan pasokan hewan kurban antar-provinsi.',
+      metrics: 'Livestock Data & Health Partner',
+      isAnchor: true
+    },
+    {
       id: 'rz',
       name: 'Rumah Zakat',
       category: 'institution',

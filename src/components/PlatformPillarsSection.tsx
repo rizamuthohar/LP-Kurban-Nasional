@@ -7,10 +7,10 @@ export const PlatformPillarsSection: React.FC = () => {
     {
       id: '01',
       number: '01',
-      title: 'National Data',
-      description: 'Data ketersediaan hewan kurban nasional, pemetaan kebutuhan wilayah penerima manfaat, dan histori implementasi kurban.',
+      title: 'National Livestock Data',
+      description: 'Data ketersediaan & populasi hewan kurban nasional tersinkronisasi (Kementan), pemetaan kebutuhan wilayah penerima manfaat 3T, dan analitik pasokan.',
       icon: 'Database',
-      badge: 'Aggregated Analytics'
+      badge: 'National Livestock Data'
     },
     {
       id: '02',
