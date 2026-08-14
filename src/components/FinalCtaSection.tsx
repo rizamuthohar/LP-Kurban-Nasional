@@ -57,6 +57,16 @@ export const FinalCtaSection: React.FC<FinalCtaProps> = ({ onOpenInquiry, onOpen
               <span>PT Distribusi Kurban Nasional</span>
             </div>
 
+            <a 
+              href="https://wa.me/6282125382809?text=Halo%20PT%20Distribusi%20Kurban%20Nasional,%20saya%20tertarik%20dengan%20kemitraan/investasi"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 text-emerald-400 font-mono hover:text-emerald-300 transition-colors"
+            >
+              <Phone className="w-4 h-4" />
+              <span>WhatsApp: 082125382809</span>
+            </a>
+
             <div className="flex items-center gap-2 text-emerald-400 font-mono">
               <Globe className="w-4 h-4" />
               <span>kurbannasional.com</span>
