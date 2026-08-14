@@ -1,6 +1,6 @@
 /**
  * @license
- * PT Distribusi Kurban Nasional - Investment Landing Page
+ * PT Distribusi Kurban Nasional - Investment Proposal
  * National Kurban Marketplace & Digital Ecosystem
  */
 

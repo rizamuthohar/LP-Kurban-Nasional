@@ -1,5 +1,5 @@
 /**
- * Types and Data Structures for Kurban Nasional Investment Landing Page
+ * Types and Data Structures for Kurban Nasional Investment
  */
 
 export interface StatItem {
